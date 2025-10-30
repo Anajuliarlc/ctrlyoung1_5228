@@ -138,13 +138,13 @@ O menu só deve encerrar quando a opção 5 for escolhida."""
 10) O computador escolhe um número de 1 a 10 e o jogador tenta adivinhar usando while.
 Você pode dar dicas pro usuário para ele saber se o número é mais alto ou mais baixo.
 
-ex: 🎲 Tente adivinhar o número que estou pensando (entre 1 e 10)!
+ex: Tente adivinhar o número que estou pensando (entre 1 e 10)!
 Digite seu palpite: 5
 Muito baixo! Tente novamente.
 Digite seu palpite: 10
 Muito alto! Tente novamente.
 Digite seu palpite: 7
-🎉 Parabéns! Você acertou! O número era 7.
+Você acertou! O número era 7.
 
 """
 
