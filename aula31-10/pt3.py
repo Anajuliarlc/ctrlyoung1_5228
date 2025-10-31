@@ -86,7 +86,7 @@ if __name__ == "__main__":
     
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup as bs
 
 # URL da música escolhida (tem muitas repetições)
 url = "https://www.letras.mus.br/red-velvet/dumb-dumb/"
@@ -100,11 +100,12 @@ soup = BeautifulSoup(resposta.text, "html.parser")
 # Localiza a div da letra (estrutura atual do site)
 letra = soup.find("div", id="lyrics") or soup.find("div", class_="lyric-original")
 
+
 if letra:
     texto = letra.get_text(strip=True).lower()  # converte tudo para minúsculas
-    print("Primeiros 300 caracteres da letra:\n")
+    """print("Primeiros 300 caracteres da letra:\n")
     print(texto[:300])
-    print("\n--- Contagem de palavras ---")
+    print("\n--- Contagem de palavras ---")"""
 
     # Palavras a serem contadas
     palavras = ["dumb", "crazy", "baby", "love"]
