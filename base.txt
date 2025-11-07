@@ -18,5 +18,3 @@ Cliente: Ol√°!
 Chatbot: Oi!
 Cliente: Eu te conhe√ßo?
 Chatbot: N√£o!
-Cliente: Ol·! Tudo bem?
-Chatbot: Ol·! Tudo! E vocÍ?
