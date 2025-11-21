@@ -1,5 +1,5 @@
 import pygame as pg
-import numpy as np # se quiser, pode trocar por numpy depois
+import numpy as np 
 
 # ETAPA 1: inicialização básica
 pg.init()
